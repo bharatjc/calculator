@@ -1,0 +1,94 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #FCFCF2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container{
+  background-color: #E8F5FF;
+  min-height: 70vh;
+  width: 50vh;
+  border: 5px solid #034D97;
+  border-radius: 0.5rem;
+  padding: 15px;
+}
+.container h2{
+  font-size: 25px;
+  text-align: center;
+  margin: 5px 0;
+  color: #265e83;
+}
+.content-panel input{
+  height: 60px;
+  width: 100%;
+  direction: rtl;
+  padding-right: 10px;
+  font-size: 25px;
+  border: 3px solid #A6A6A6;
+  border-radius: 0.5rem;
+}
+.keyboard{
+display: grid;
+padding: 20px 0;
+grid-template-columns: repeat(4, 1fr);
+grid-gap: 10px;
+}
+.keyboard button{
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #A6A6A6;
+  border-radius: 5px;
+  font-size: 25px;
+  font-weight: 700;
+  cursor: pointer;
+}
+#equals{
+  grid-column: auto / span 2;
+  background-color: #004D9C;
+  color: white;
+}
+#equals:hover{
+  opacity: 50%;
+}
+.signs{
+  background-color: #7F7F7F;
+  color: white;
+}
+.signs:hover{
+  color: #FFA7A7;
+}
+.numbers{
+  background-color: #EEEEEE;
+  color: #004D9C;
+}
+.numbers:hover{
+  color: red;
+}
+#dot i{
+  font-size: 10px;
+}
+
+.plusminus{
+  background-color: #B1B0B0;
+  color: white;
+}
+.plusminus:hover{
+  color: #FFA7A7;
+}
+.reset{
+  background-color: palevioletred;
+  color: white;
+}
+.reset:hover{
+  opacity: 50%;
+}
+
